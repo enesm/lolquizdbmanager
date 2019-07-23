@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fontKucuk">12sp</dimen>
+    <dimen name="fontOrta">16sp</dimen>
+    <dimen name="fontBuyuk">20sp</dimen>
+    <dimen name="fontBaslik">26sp</dimen>
+    <dimen name="boslukMinik">10dp</dimen>
+    <dimen name="boslukKucuk">20dp</dimen>
+    <dimen name="boslukOrta">30dp</dimen>
+    <dimen name="boslukBuyuk">40dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="minButonGenislik">200dp</dimen>
+</resources>

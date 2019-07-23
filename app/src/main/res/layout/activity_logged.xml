@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Logged">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/boslukKucuk"
+        android:layout_marginStart="@dimen/boslukKucuk"
+        android:layout_marginTop="@dimen/boslukKucuk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/lolquizdbmanager"
+        android:contentDescription="@string/title_activity_logged" />
+
+    <Button
+        android:id="@+id/butonSampEkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:minWidth="@dimen/minButonGenislik"
+        android:text="@string/sampyionEkle"
+        android:textSize="@dimen/fontOrta"
+        app:layout_constraintBottom_toTopOf="@+id/butonSampDuzenle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/butonSampDuzenle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:minWidth="@dimen/minButonGenislik"
+        android:text="@string/sampiyonDüzenle"
+        android:textSize="@dimen/fontOrta"
+        app:layout_constraintBottom_toTopOf="@+id/butonIpucuEkle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/butonIpucuEkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:minWidth="@dimen/minButonGenislik"
+        android:text="@string/ipucuEkle"
+        android:textSize="@dimen/fontOrta"
+        app:layout_constraintBottom_toTopOf="@+id/butonIpucuDuzenle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/butonIpucuDuzenle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:minWidth="@dimen/minButonGenislik"
+        android:text="@string/ipucuDüzenle"
+        android:textSize="@dimen/fontOrta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

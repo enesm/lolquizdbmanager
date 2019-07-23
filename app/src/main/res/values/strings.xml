@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lol Quiz DB Menejeri Beta</string>
+    <string name="kullaniciAdi">Kullanıcı Adı: </string>
+    <string name="sifre">Şifre: </string>
+    <string name="giris">Giriş Yap</string>
+    <string name="title_activity_logged">logged</string>
+    <string name="sampyionEkle">Şampiyon Ekle</string>
+    <string name="ipucuEkle">İpucu Ekle</string>
+    <string name="sampiyonDüzenle">Şampiyon Düzenle</string>
+    <string name="ipucuDüzenle">İpucu Düzenle</string>
+    <string name="textSampAdi">Şampiyon İsmi</string>
+    <string name="textSampSinifi">Şampiyon Sınıfı</string>
+    <string name="textSampImg">Görsel Linki</string>
+    <string name="textEkle">Ekle</string>
+    <string name="textKaydet">Kaydet</string>
+    <string name="textIptal">İptal</string>
+    <string name="textGeri">Geri</string>
+</resources>
